@@ -29,8 +29,10 @@ hr {
 
 /** links **/
 .link {
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 
 .primary-link {
@@ -89,7 +91,7 @@ hr {
 
 }
 
-.hero .hero-img {
+.hero-img {
     max-width: 350px;
     display: block;
     margin: auto;
@@ -134,6 +136,10 @@ footer{
     color: white;
 }
 
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 .footer ul{
     padding-inline-start: 0px;
 }
