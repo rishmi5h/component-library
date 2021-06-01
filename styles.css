@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 hr {
@@ -98,6 +99,7 @@ hr {
 .hero .hero-heading {
     color: var(--dark-grey);
     padding-top: 1rem;
+    text-align: center;
 }
 
 .hero .hero-heading .heading-inverted {
@@ -116,4 +118,22 @@ hr {
 
 .ow{
     background-color: var(--off-white);
+}
+
+/** footer **/
+
+footer{
+    background-color: var(--primary-color);
+    padding: 2rem 1rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
 }
