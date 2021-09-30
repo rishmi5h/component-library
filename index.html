@@ -4,116 +4,93 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Component Library</title>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Home | Rishabh mishra</title>
   </head>
   <body>
-    <h1>Rishabh's library</h1>
-
-    <p>
-      I am attending neog.camp and I want to make a library which would make all
-      my projects look good and consistent.
-    </p>
-    <hr />
-
-    <h2>@Typography</h1>
-
-    <h1>This is the biggest heading</h1>
-    <h2>This is the second biggest heading</h2>
-    <p>Let me show you the normal text. This is free and will wrap at the end like a paragraph</p>    
-    <small>This is relatively small.</small>
-
-    <hr>
-    <h2>@container</h2>
-
-    <h3>fluid container</h3>
-    <div>This is a fluid container and it will go till the end of the page</div>
-
-    <h3>center container</h3>
-    <div>This is a cantered container and it will go till the specified width</div>
-
-    <hr>
-    <h2>@links</h2>
-
-    <a href="#">Primary Link</a>
-    <a href="#">Secondary Link</a>
-
-    <hr>
-    
-    <h2>@lists</h2>
-    
-    <ul>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-
-    </ul>
-
-    <h3>unordered inline list</h3>
-
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline Item Two</li>
-        <li>Inline Item Three</li>
-    </ul>
-
-    <h3>reverse ordered list
-    </h3>
-
-    <ol>
-        <li>milk</li>
-        <li>eggs</li>
-        <li>breads</li>
-    </ol>
-
-    <hr>
-    <h2>@nav</h2>
-    
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">home</a>
-            </li>
-            <li>
-                <a href="/">projects</a>
-            </li>
-            <li>
-                <a href="/">about</a>
-            </li>
-        </ul>
+    <nav class="navigation container">
+      <div class="nav-brand">Rishabh</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link link-active" href="index.html">Home</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="projects.html">Projects</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="blogs.html">Blogs</a>
+        </li>
+      </ul>
     </nav>
-
-    <hr>
-    
-    <h2>@header</h2>
-
-    <header>
-        <img src="images/hero.svg"/>
-        <h1>heading inside header</h1>
+    <header class="hero">
+      <img class="hero-img" src="images/hero.svg" />
+      <h1 class="hero-heading">
+        Rishabh Mishra
+        <span class="heading-inverted">Web developer</span>
+      </h1>
     </header>
+    <section class="section ow">
+      <div class="container container-center">
+        <h1>Technologies</h1>
+        <p>
+          I am Comfortable with
+          <span class="primary-color-text"
+            >HTML5, CSS3, JavaScript, ReactJs, NodeJs, Web Hosting, Git and
+            Github</span
+          >
+        </p>
+        <img class="hero hero-img" src="images/technologies.svg" />
 
-    <hr>
-    <h2>@section</h2>
-    
-    <section>
-        <h3>white section</h3>
-        <p>This will have white background</p>
+        <!-- <p>This will have gray section</p> -->
+      </div>
     </section>
-    
-    <section>
-        <h3>off white section</h3>
-        <p>This will have gray section</p>
+    <section class="section">
+      <div class="container container-center center">
+        <h1>Projects</h1>
+        <p>Checkout various Projects that i have build so far</p>
+        <a class="link primary-link" href="projects.html">See Projects</a>
+      </div>
     </section>
-
-    <hr>
-    <h2>@footer</h2>
-    <footer>
-        <div>Some small heading inside footer</div>
-        <ul>
-            <li>socialone</li>
-            <li>socialtwo</li>
-            <li>socialthree</li>
-        </ul>
+    <section class="section ow">
+      <div class="container container-center center">
+        <h1>Blogs</h1>
+        <p>
+          Checkout various Blogs and Book summaries that i have writtenn so far
+        </p>
+        <a class="link secondary-link" href="blogs.html">Checkout Blogs</a>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer-header">Connect with me on</div>
+      <ul class="social-links list-non-bullet">
+        <li class="list-item-inline">
+          <a
+            target="_blank"
+            class="link"
+            href="https://www.Github.com/rishimish"
+          >
+            Github</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            target="_blank"
+            class="link"
+            href="https://www.linkedin.com/in/rismish"
+          >
+            Linkedin</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a
+            target="_blank"
+            class="link"
+            href="https://www.twitter.com/rishabhmishrabu"
+          >
+            Twitter</a
+          >
+        </li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
