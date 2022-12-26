@@ -1,18 +1,37 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 * {
   box-sizing: border-box;
   /* outline: 1px solid red; */
 }
+
+@import "./variables.css";
+@import "./components-style/button.css";
+
 :root {
-  --primary-color: #be185d;
-  --secondary-color: #8b5cf6;
+  --primary-color: #7c3aed;
+  --secondary-color: #c7c6f7;
+  --black: #000000;
+  --white: #ffffff;
+  --grey: #8b949e;
   --dark-grey: #52525b;
   --off-white: #e4e4e7;
+  --box-shadow: 0px 0px 5px -3px var(--black);
+  --shadow-black: #00000040;
+  --shadow-grey: #ffffff4d;
+  --online: #1b7052;
+  --offline: #7b8188;
+  --busy: #dc3545;
+  --away: #ff9204;
+  --warning: #e9d1b0;
+  --danger: #f87171;
+  --success: #84f1c9;
+  --warning-text: #867864;
+  --danger-text: #924242;
+  --success-text: #335e4e;
 }
-
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Rubik", sans-serif;
   margin: 0px;
   display: flex;
   flex-direction: column;
