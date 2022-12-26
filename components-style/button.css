@@ -1,0 +1,105 @@
+.btn {
+  text-decoration: none;
+  display: inline-block;
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+}
+
+.primary-btn {
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  padding: 0.5rem 2rem;
+  color: var(--white);
+  box-shadow: 12px 12px 16px 0 var(--shadow-black),
+    -8px -8px 12px 0 var(--shadow-grey);
+}
+
+.primary-btn:hover {
+  box-shadow: 0 2px 8px var(--black);
+}
+.primary-btn:active {
+  box-shadow: 0 2px 2px var(--black);
+}
+
+.primary-outline-btn {
+  border: 1px solid var(--primary-color);
+  padding: 0.5rem 2rem;
+  border-radius: 6px;
+  color: var(--primary-color);
+  background-color: var(--white);
+  box-shadow: 12px 12px 16px 0 var(--shadow-black),
+    -8px -8px 12px 0 var(--shadow-grey);
+}
+
+.primary-outline-btn:hover {
+  box-shadow: 0 2px 8px var(--black);
+  color: var(--white);
+  background-color: var(--primary-color);
+}
+
+.primary-outline-btn:active {
+  box-shadow: 0 2px 2px var(--black);
+}
+.primary-link-btn {
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+.primary-link-btn a {
+  background-color: inherit;
+}
+.primary-link-btn a:hover {
+  color: var(--primary-color);
+}
+
+.icon-btn {
+  font-size: 1.5rem;
+  color: var(--color);
+  cursor: pointer;
+}
+.icon-btn:hover {
+  color: var(--primary-color);
+}
+
+.icon-text-btn {
+  background-color: var(--primary-color);
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  color: var(--white);
+  box-shadow: 12px 12px 16px 0 var(--shadow-black),
+    -8px -8px 12px 0 var(--shadow-grey);
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.icon-text-btn:hover {
+  box-shadow: 0 2px 8px var(--black);
+}
+.icon-text-btn:active {
+  box-shadow: 0 2px 2px var(--shadow-black);
+}
+.fa-plus {
+  color: var(--white);
+}
+.floating-action-btn {
+  background-color: var(--black);
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--white);
+  box-shadow: 12px 12px 16px 0 var(--shadow-black),
+    -8px -8px 12px 0 var(--shadow-grey);
+}
+
+.floating-action-btn:hover {
+  box-shadow: 0 2px 8px var(--black);
+  background-color: var(--primary-color);
+}
+
+.floating-action-btn:active {
+  box-shadow: 0 2px 2px var(--black);
+}
